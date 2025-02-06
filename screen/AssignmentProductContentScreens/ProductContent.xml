@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-3.xsd"
+        require-authentication="anonymous-all">
+
+    <transition name="createProductContent">
+        <service-call name="create#assignment.ProductContent"/>
+        <default-response url="."/>
+    </transition>
+
+    <transition name="deleteProductContent">
+        <service-call name="delete#assignment.ProductContent"/>
+        <default-response url="."/>
+    </transition>
+
+    <transition name="editProduct"><default-response url="/editProduct"/></transition>
+    <actions>
+        <entity-find entity-name="assignment.ProductContent" list="productContentList">
+            <search-form-inputs default-order-by="^productContentId"/></entity-find>
+
+    </actions>
+
+
+
+    <widgets>
+
+
+        <container-box><box-header><label text="Find Product Content" type="h5"/></box-header><box-toolbar>
+            <container-dialog id="CreateProductDialog" button-text="Create Product Content">
+                <form-single name="CreateProductContent" transition="createProductContent">
+                    <auto-fields-entity entity-name="assignment.ProductContent" field-type="edit"/>
+                    <field name="submitButton"><default-field title="Create"><submit/></default-field></field>
+                </form-single>
+            </container-dialog>
+        </box-toolbar>
+            <box-body>
+                <form-list name="ProductContentList" list="productContentList" header-dialog="true"  >
+                    <auto-fields-entity entity-name="ProductContent" field-type="find-display"/>
+                    <field name="findButton"><header-field >
+                        <submit text="Find"/></header-field>
+                        <default-field><ignored/></default-field>
+                    </field>
+                    <field name="delete">
+                        <default-field>
+                            <link text="Delete" url="deleteProductContent">
+                                <parameter name="productContentId"/>
+                            </link>
+                        </default-field>
+                    </field>
+
+                </form-list>
+            </box-body>
+        </container-box>
+
+
+    </widgets>
+</screen>

@@ -1,0 +1,12 @@
+assignment.category.ProductCategory,demo
+productCategoryId,productCategoryTypeEnumId,categoryName,description
+CAT001,INDUSTRY,"Electronics","Category for all electronic products including mobile phones, laptops, and accessories."
+CAT002,MATERIALS,"Raw Materials","Category for raw materials like wood, metals, and plastics used in manufacturing."
+CAT003,SEARCH,"Smartphones","Category for all smartphone products across different brands and models."
+CAT004,USAGE,"Home Appliances","Category for products used for household purposes such as refrigerators, washing machines, etc."
+CAT005,INTERNAL,"Inventory","Internal category for tracking products in inventory, not available for sale."
+CAT006,USAGE,"Furniture","Category for all types of furniture like sofas, tables, and chairs."
+CAT007,MATERIALS,"Packaging","Category for materials used in packaging, such as boxes, tapes, and labels."
+CAT008,INDUSTRY,"Automotive","Category for automotive products, including parts and accessories for cars and motorcycles."
+CAT009,SEARCH,"Laptops","Category for laptops of various brands and configurations, available for searching."
+CAT010,USAGE,"Office Supplies","Category for office supplies such as paper, pens, and other stationery items."

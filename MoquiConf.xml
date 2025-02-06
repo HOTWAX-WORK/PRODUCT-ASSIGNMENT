@@ -3,7 +3,19 @@
 <moqui-conf xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/moqui-conf-3.xsd">
     <screen-facade>
         <screen location="component://webroot/screen/webroot/apps.xml">
-            <subscreens-item name="AssignmentPartyScreens" menu-title="AssignmentPartyScreens" menu-index="98" location="component://relationshipmgr/screen/AssignmentPartyScreens.xml"/>
+            <subscreens-item name="ASSIGNMENTPRODUCTSCREENS" menu-title="AssignmentProductScreens" menu-index="98" location="component://productinformationmgr/screen/AssignmentProductScreens.xml"/>
+        </screen>
+        <screen location="component://webroot/screen/webroot/apps.xml">
+            <subscreens-item name="ASSIGNMENTPRODUCTCONTENTSCREENS" menu-title="AssignmentProductContentScreens" menu-index="98" location="component://productinformationmgr/screen/AssignmentProductContentScreens.xml"/>
+        </screen>
+        <screen location="component://webroot/screen/webroot/apps.xml">
+            <subscreens-item name="ASSIGNMENTPRODUCTPRICESCREENS" menu-title="AssignmentProductPriceScreens" menu-index="98" location="component://productinformationmgr/screen/AssignmentProductPriceScreens.xml"/>
+        </screen>
+        <screen location="component://webroot/screen/webroot/apps.xml">
+            <subscreens-item name="ASSIGNMENTPRODUCTDIMENSIONSCREENS" menu-title="AssignmentProductDimensionScreens" menu-index="98" location="component://productinformationmgr/screen/AssignmentProductDimensionScreens.xml"/>
+        </screen>
+        <screen location="component://webroot/screen/webroot/apps.xml">
+            <subscreens-item name="ASSIGNMENTPRODUCTASSOCSCREENS" menu-title="AssignmentProductAssocScreens" menu-index="98" location="component://productinformationmgr/screen/AssignmentProductAssocScreens.xml"/>
         </screen>
     </screen-facade>
 </moqui-conf>

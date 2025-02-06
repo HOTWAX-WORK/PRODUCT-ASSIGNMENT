@@ -1,0 +1,56 @@
+assignment.ProductDimension,demo
+productId,dimensionTypeEnumId,value,valueUomId
+P001,QUANTITY,100,Units
+P001,WEIGHT,1.5,Kilograms
+P001,HEIGHT,20,Centimeters
+P001,WIDTH,10,Centimeters
+P001,DEPTH,5,Centimeters
+P001,VOLUME,1000,Cubic Centimeters
+P002,QUANTITY,50,Units
+P002,WEIGHT,0.8,Kilograms
+P002,HEIGHT,10,Centimeters
+P002,WIDTH,5,Centimeters
+P002,DEPTH,2,Centimeters
+P002,VOLUME,200,Cubic Centimeters
+P003,QUANTITY,200,Units
+P003,WEIGHT,3.0,Kilograms
+P003,HEIGHT,30,Centimeters
+P003,WIDTH,20,Centimeters
+P003,DEPTH,15,Centimeters
+P003,VOLUME,9000,Cubic Centimeters
+P004,QUANTITY,150,Units
+P004,WEIGHT,5.0,Kilograms
+P004,HEIGHT,50,Centimeters
+P004,WIDTH,30,Centimeters
+P004,DEPTH,20,Centimeters
+P004,VOLUME,30000,Cubic Centimeters
+P005,QUANTITY,300,Units
+P005,WEIGHT,10.0,Kilograms
+P005,HEIGHT,40,Centimeters
+P005,WIDTH,25,Centimeters
+P005,DEPTH,10,Centimeters
+P005,VOLUME,10000,Cubic Centimeters
+P006,QUANTITY,120,Units
+P006,WEIGHT,2.5,Kilograms
+P006,HEIGHT,35,Centimeters
+P006,WIDTH,15,Centimeters
+P006,DEPTH,8,Centimeters
+P006,VOLUME,4200,Cubic Centimeters
+P007,QUANTITY,80,Units
+P007,WEIGHT,4.5,Kilograms
+P007,HEIGHT,15,Centimeters
+P007,WIDTH,10,Centimeters
+P007,DEPTH,3,Centimeters
+P007,VOLUME,450,Cubic Centimeters
+P008,QUANTITY,60,Units
+P008,WEIGHT,6.0,Kilograms
+P008,HEIGHT,45,Centimeters
+P008,WIDTH,20,Centimeters
+P008,DEPTH,15,Centimeters
+P008,VOLUME,13500,Cubic Centimeters
+P009,QUANTITY,500,Units
+P009,WEIGHT,12.0,Kilograms
+P009,HEIGHT,25,Centimeters
+P009,WIDTH,15,Centimeters
+P009,DEPTH,10,Centimeters
+P009,VOLUME,3750,Cubic Centimeters

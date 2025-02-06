@@ -1,0 +1,21 @@
+assignment.ProductContent,demo
+productContentId,productId,contentLocation,productContentTypeEnumId,description
+PC001,P001,/content/television_manual.pdf,DESCRIPTION,User manual for UltraHD Television
+PC002,P001,/content/television_image.jpg,IMAGE,High-resolution image of UltraHD Television
+PC003,P001,/content/television_terms.pdf,TERMS_AND_CONDITION,Terms and conditions for UltraHD Television
+PC004,P002,/content/organic_cotton_ingredients.pdf,INGREDIENTS,Ingredients list for Organic Cotton Fabric
+PC005,P002,/content/organic_cotton_description.pdf,DESCRIPTION,Product description for Organic Cotton Fabric
+PC006,P003,/content/cloud_storage_installation.pdf,INSTALLATION,Installation guide for Cloud Storage Service
+PC007,P003,/content/cloud_storage_terms.pdf,TERMS_AND_CONDITION,Terms and conditions for Cloud Storage Service
+PC008,P004,/content/smartphone_image.jpg,IMAGE,High-resolution image of Smartphone
+PC009,P004,/content/smartphone_description.pdf,DESCRIPTION,Product description for Smartphone
+PC010,P005,/content/modular_sofa_instructions.pdf,SPECIAL_INSTRUCTIONS,Special assembly instructions for Modular Sofa
+PC011,P005,/content/modular_sofa_image.jpg,IMAGE,High-resolution image of Modular Sofa
+PC012,P006,/content/conveyor_system_terms.pdf,TERMS_AND_CONDITION,Terms and conditions for Automated Conveyor System
+PC013,P006,/content/conveyor_system_installation.pdf,INSTALLATION,Installation guide for Automated Conveyor System
+PC014,P007,/content/vr_headset_image.jpg,IMAGE,High-resolution image of Virtual Reality Headset
+PC015,P007,/content/vr_headset_description.pdf,DESCRIPTION,Product description for Virtual Reality Headset
+PC016,P008,/content/custom_laptop_ingredients.pdf,INGREDIENTS,Components list for Custom Laptop
+PC017,P008,/content/custom_laptop_description.pdf,DESCRIPTION,Product description for Custom Laptop
+PC018,P009,/content/home_entertainment_bundle_description.pdf,DESCRIPTION,Product description for Home Entertainment Bundle
+PC019,P009,/content/home_entertainment_bundle_terms.pdf,TERMS_AND_CONDITION,Terms and conditions for Home Entertainment Bundle

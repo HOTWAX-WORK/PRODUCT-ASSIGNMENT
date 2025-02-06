@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/xml-screen-3.xsd"
+        require-authentication="anonymous-all">
+
+    <transition name="createProductDimension">
+        <service-call name="create#assignment.ProductDimension"/>
+        <default-response url="."/>
+    </transition>
+
+    <transition name="deleteProductDimension">
+        <service-call name="delete#assignment.ProductDimension"/>
+        <default-response url="."/>
+    </transition>
+
+
+
+    <transition name="editProduct"><default-response url="/editProduct"/></transition>
+    <actions>
+        <entity-find entity-name="assignment.ProductDimension" list="productDimensionList">
+            <search-form-inputs default-order-by="^value"/></entity-find>
+
+    </actions>
+
+
+
+    <widgets>
+
+        <container-box><box-header><label text="Find Product Dimension" type="h5"/></box-header><box-toolbar>
+            <container-dialog id="CreateDimensionDialog" button-text="Create Product Dimension">
+                <form-single name="CreateProductDimension" transition="createProductDimension">
+                    <auto-fields-entity entity-name="assignment.ProductDimension" field-type="edit"/>
+                    <field name="submitButton"><default-field title="Create"><submit/></default-field></field>
+                </form-single>
+            </container-dialog>
+        </box-toolbar>
+            <box-body>
+                <form-list name="ProductDimensionList" list="productDimensionList" header-dialog="true"  >
+                    <auto-fields-entity entity-name="ProductDimension" field-type="find-display"/>
+                    <field name="findButton"><header-field >
+                        <submit text="Find"/></header-field>
+                        <default-field><ignored/></default-field>
+                    </field>
+                    <field name="delete">
+                        <default-field>
+                            <link text="Delete" url="deleteProductDimension">
+                                <parameter name="productId"/>
+                            </link>
+                        </default-field>
+                    </field>
+                </form-list>
+            </box-body>
+        </container-box>
+
+
+    </widgets>
+</screen>

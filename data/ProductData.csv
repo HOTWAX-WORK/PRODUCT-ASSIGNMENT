@@ -1,0 +1,11 @@
+assignment.Product,demo
+productId,productName,productTypeEnumId,isVirtual,isVariant,fromDate,thruDate
+P001,UltraHD Television,FINISHED_GOOD,N,N,2025-01-01T00:00:00,
+P002,Organic Cotton Fabric,RAW_MATERIAL,N,N,2025-01-01T00:00:00,
+P003,Cloud Storage Service,SERVICES,Y,N,2025-01-01T00:00:00,
+P004,Smartphone,GOOD,Y,Y,2025-01-01T00:00:00,
+P005,Modular Sofa,CONF_GOOD,N,Y,2025-01-01T00:00:00,
+P006,Automated Conveyor System,WORK_IN_PROGRESS,N,N,2025-01-01T00:00:00,
+P007,Virtual Reality Headset,VIRTUAL_PRODUCT,Y,N,2025-01-01T00:00:00,
+P008,Custom Laptop,VARIANT_PRODUCT,N,Y,2025-01-01T00:00:00,
+P009,Home Entertainment Bundle,MARKT_PACKAGE,N,N,2025-01-01T00:00:00,

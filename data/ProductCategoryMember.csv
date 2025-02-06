@@ -1,0 +1,12 @@
+assignment.category.ProductCategoryMember,demo
+productCategoryId,productId,fromDate,thruDate,comments,sequenceNum,quantity
+CAT001,P001,2025-02-01,,"Main category for electronic products",1,100
+CAT002,P002,2025-02-01,,"Raw materials for manufacturing",1,500
+CAT003,P003,2025-02-01,,"Smartphone product category",1,200
+CAT004,P004,2025-02-01,,"Home appliances including refrigerators",1,50
+CAT005,P005,2025-02-01,,"Internal inventory category",1,30
+CAT006,P006,2025-02-01,,"Furniture category for home and office",1,75
+CAT007,P007,2025-02-01,,"Packaging materials used in production",1,250
+CAT008,P008,2025-02-01,,"Automotive parts and accessories",1,120
+CAT009,P009,2025-02-01,,"Laptops available for online searching",1,150
+
