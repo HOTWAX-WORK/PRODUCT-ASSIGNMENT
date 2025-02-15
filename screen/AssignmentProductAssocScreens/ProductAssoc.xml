@@ -11,6 +11,14 @@
         <service-call name="delete#assignment.ProductAssoc"/>
         <default-response url="."/>
     </transition>
+
+    <transition name="editProductAssoc">
+        <service-call name="update#assignment.ProductAssoc"/>
+        <default-response url="."/>
+    </transition>
+
+
+
     <actions>
         <entity-find entity-name="assignment.ProductAssoc" list="productAssocList"/>
 
@@ -25,6 +33,16 @@
                 <form-single name="CreateProductAssociation" transition="createProductAssociation">
                     <auto-fields-entity entity-name="assignment.ProductAssoc" field-type="edit"/>
                     <field name="submitButton"><default-field title="Create"><submit/></default-field></field>
+                </form-single>
+            </container-dialog>
+            <container-dialog id="EditProductAssoc" button-text="Edit Product Assoc">
+                <form-single name="EditProductAssoc" transition="editProductAssoc">
+                    <auto-fields-entity entity-name="assignment.ProductAssoc" field-type="edit"/>
+                    <field name="submitButton">
+                        <default-field title="Save Changes">
+                            <submit/>
+                        </default-field>
+                    </field>
                 </form-single>
             </container-dialog>
         </box-toolbar>
